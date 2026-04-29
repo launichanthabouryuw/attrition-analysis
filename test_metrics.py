@@ -1,5 +1,5 @@
 import pandas as pd
-from src.metrics import attrition_rate, attrition_by_department
+from metrics import attrition_rate, attrition_by_department
 
 
 def test_attrition_rate_returns_expected_percent():
