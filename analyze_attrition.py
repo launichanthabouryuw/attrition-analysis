@@ -16,7 +16,7 @@ def print_section(title, value):
 
 
 if __name__ == "__main__":
-    df = load_employee_data("data/employees.csv")
+    df = load_employee_data("employees.csv")
     df = clean_employee_data(df)
 
     print_section("Overall Attrition Rate", f"{attrition_rate(df)}%")
